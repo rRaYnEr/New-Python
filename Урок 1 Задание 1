@@ -1,0 +1,17 @@
+# Найти сумму и произведение цифр трехзначного числа, которое вводит пользователь
+# Ссылка на блок-схему 
+# https://drive.google.com/file/d/1yjdJUaYmjkxRIedV4Q_GP0uGk6fQPfBM/view?usp=sharing
+
+
+digit = int(input("Введите трехзначное число: "))
+
+if digit != 0:
+    a = digit % 10
+    digit = digit // 10
+    b = digit % 10
+    digit = digit // 10
+    c = digit % 10
+    print("Сумма цифр числа:", a + b + c)
+    print("Произведение цифр числа:", a * b * c)
+else:
+    print("При умножении на 0 получим 0")
