@@ -1,0 +1,7 @@
+# Пользователь вводит номер буквы в алфавите. Определить, какая это буква.
+# Ссылка на Блок схему
+# https://drive.google.com/file/d/138NoLEI3kB4SVxyPI5N26ZLs_0hVv1FJ/view?usp=sharing
+
+char = int(input("Введите номер буквы: "))
+
+print(chr(char))
